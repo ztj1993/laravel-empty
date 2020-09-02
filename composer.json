@@ -1,0 +1,41 @@
+{
+  "name": "ztj1993/laravel-template",
+  "description": "Template package for Laravel",
+  "keywords": [
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ztj",
+      "email": "ztj1993@gmail.com",
+      "homepage": "https://ztj.xyz/resume",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "illuminate/support": "^7.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0",
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ztj\\Laravel\\Template\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ztj\\Laravel\\Template\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ztj\\Laravel\\Template\\Provider"
+      ]
+    }
+  }
+}
