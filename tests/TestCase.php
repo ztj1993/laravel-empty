@@ -8,6 +8,6 @@ class TestCase extends BaseTestCase
 {
     protected function getPackageProviders($app)
     {
-        return ['Ztj\Laravel\Template\Provider'];
+        return ['Ztj\Laravel\Template\ServiceProvider'];
     }
 }
