@@ -1,6 +1,6 @@
 <?php
 
-namespace Ztj\Laravel\Template\Tests;
+namespace Ztj\Laravel\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
@@ -8,6 +8,6 @@ class TestCase extends BaseTestCase
 {
     protected function getPackageProviders($app)
     {
-        return ['Ztj\Laravel\Template\ServiceProvider'];
+        return ['Ztj\Laravel\ServiceProvider'];
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ztj\Laravel\Template\Tests;
+namespace Ztj\Laravel\Tests;
 
 class BasicTest extends TestCase
 {

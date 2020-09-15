@@ -23,18 +23,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Ztj\\Laravel\\Template\\": "src/"
+      "Ztj\\Laravel\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ztj\\Laravel\\Template\\Tests\\": "tests/"
+      "Ztj\\Laravel\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Ztj\\Laravel\\Template\\ServiceProvider"
+        "Ztj\\Laravel\\ServiceProvider"
       ]
     }
   }

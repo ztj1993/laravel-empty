@@ -1,6 +1,6 @@
 <?php
 
-namespace Ztj\Laravel\Template;
+namespace Ztj\Laravel;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
