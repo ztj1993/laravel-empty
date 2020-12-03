@@ -10,4 +10,11 @@ class TestCase extends BaseTestCase
     {
         return ['Ztj\Laravel\ServiceProvider'];
     }
+
+    protected function getEnvironmentSetUp($app)
+    {
+        $config = $app['config'];
+
+        $config->set('app.debug', true);
+    }
 }
